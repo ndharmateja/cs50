@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include "cs50.h"
 
 int main(void)
 {
-    printf("hello, world\n");
+    string s = "hello, world";
+    printf("%s\n", s);
     return 0;
 }
